@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: #2196F3;
+    padding: 0.2%;
+    height: 30em;
+    width: 24em;
+}
+#MainBox{
+    position: absolute;
+    margin: auto auto;
+    top:20%;
+    left: 35%;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+    border: 2% solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item:hover {
+  background-color: rgba(255, 255, 255, 1);
+    border: 2% solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+#ipbox{
+    border: solid;
+    border-color: #86c6f8;
+    color: #000202;
+    top: 33%;
+    width: 98%;
+    height: 60px;
+    font-size: xx-large;
+    position: relative
+}
